@@ -1,14 +1,16 @@
 from pygame import mixer
-import random
 from pynput.keyboard import Key, Listener
+
+import random
 import os
 
-
-file_path = os.path.dirname(__file__)
+file_path = os.getcwd()
 soundsList = os.listdir(file_path+"/sounds")
 soundsList.remove("diff") # Remove diff folder
 
 
+print("\n\n Press ""END"" to STOP \n\n")
+print(" Listener Started")
 def on_press(key):
     print(key)      
     if key == Key.space:
@@ -21,14 +23,11 @@ def on_press(key):
             playSound("diff/hoo2.mp3")
         else:
             playSound("diff/hoo3.mp3")
-    elif key == Key.num_lock:
-        return False
     if (key != Key.enter and key != Key.space and key !=Key.esc and key != Key.end):
         playSound(random.choice(soundsList)) # Choose random mp3 sound  
     
     if (key == Key.end): # To stop program press "end" key
-        listener.stop()
-
+        return False
 
 def playSound(name):
     mixer.init()
