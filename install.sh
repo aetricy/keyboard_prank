@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 pip install pygame
-pip install pynput
+pip install keyboard
 
 
 sudo cat > config.py <<EOF
