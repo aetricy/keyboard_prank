@@ -76,6 +76,8 @@ If you decide to remove the prank from the target computer:
 
 - Mobile Control App - Enable remote prank activation and real-time reaction capture via a mobile app.
 
+- Plug-and-Play Convenience - Simply plug the specially designed USB device into the target computer, and the fun begins immediately.
+
 
 ## Disclaimer
 
