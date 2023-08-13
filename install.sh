@@ -15,7 +15,7 @@ echo "Press END key to STOP Service"
 echo "-----------------------------"
 sudo systemctl stop keyboard_prank
 sudo rm /etc/systemd/system/keyboard_prank.service
-sudo rm /home/arslan/Documents/VisualCode/keyboard_prank"/config.py"
+sudo rm `pwd`/config.py
 sudo systemctl daemon-reload 
 echo " "
 echo "-----------------------------"
@@ -24,10 +24,6 @@ echo "-----------------------------"
 sudo rm delete.sh
 
 EOF
-
-if [ -z "$DATA_FILE" ]; then
-    echo "Starting..."
-fi
 
 
 # remove the double quotes
@@ -53,7 +49,7 @@ else
 Description=$DESCRIPTION
 After=network.target
 [Service]
-ExecStart=$PKG_PATH $SERVICE_PATH
+ExecStart=$PKG_PATH $SERVICE_PATH   
 Restart=on-failure
 [Install]
 WantedBy=multi-user.target
