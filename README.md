@@ -79,7 +79,7 @@ If you decide to remove the prank from the target computer:
 - Plug-and-Play Convenience - Simply plug the specially designed USB device into the target computer, and the fun begins immediately.
 
 
-## Disclaimer
+## Note
 
 This prank application is meant to be light-hearted and fun. Always use it responsibly and with the consent of the target individual. Respect their privacy and avoid causing any inconvenience.
 
