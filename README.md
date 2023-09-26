@@ -27,9 +27,11 @@ Follow these instructions to set up the Keyboard Prank on the target computer:
 
     
 - **Windows Installation**:
-   
-   *Do not support windows yet.*
 
+  ```bash
+   python3 install.py
+    ```
+   
    
 #### This will install and configure the prank to start on every reboot.
 
@@ -58,7 +60,9 @@ If you decide to remove the prank from the target computer:
 
 ### Windows
 
-   *Do not support windows yet.*
+   ```bash
+   .\delete.bat
+   ```
 
 
 #### This will remove the prank from the system.
@@ -66,7 +70,7 @@ If you decide to remove the prank from the target computer:
 
 ## Roadmap
 
-- Windows Support
+- Windows Support   
 
 - Enhanced Sound Effect Triggers - Implement context-based and randomized triggers for added surprise.
 
