@@ -29,6 +29,8 @@ Follow these instructions to set up the Keyboard Prank on the target computer:
 
     Install last version of windows releases.
   ```bash
+   pip install keyboard
+   pip install pygame
    python3 install.py
     ```
    
