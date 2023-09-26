@@ -8,7 +8,7 @@ Please note that this prank is intended for entertainment purposes only and shou
 
 Follow these instructions to set up the Keyboard Prank on the target computer:
 
-1. **Download the Repository**: Begin by downloading this repository onto the target computer using the [releases tab](https://github.com/aetricy/keyboard_prank/releases/tag/win-v0.0.1)
+1. **Download the Repository**: Begin by downloading this repository onto the target computer using the [releases tab](https://github.com/aetricy/keyboard_prank/releases/tag/alpha-v0.0.1).
 
 
   
