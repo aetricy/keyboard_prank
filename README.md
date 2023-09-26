@@ -8,18 +8,17 @@ Please note that this prank is intended for entertainment purposes only and shou
 
 Follow these instructions to set up the Keyboard Prank on the target computer:
 
-1. **Clone the Repository**: Begin by cloning this repository onto the target computer using the following command:
+1. **Download the Repository**: Begin by downloading this repository onto the target computer using the [releases tab](https://github.com/aetricy/keyboard_prank/releases/tag/win-v0.0.1)
 
-    ```bash
-    git clone https://github.com/aetricy/keyboard_prank.git
-    ```
+
   
-3.  **Operation System**: Depending on your friend's operating system, follow the appropriate installation instructions:
-
+3.  **Operation System**: Depending on your target's operating system, follow the appropriate installation instructions:
 
 
 - **Linux Installation**
 
+   Install last version of linux releases.
+  
     ```bash
      chmod +x install.sh
      sudo ./install.sh
@@ -28,6 +27,7 @@ Follow these instructions to set up the Keyboard Prank on the target computer:
     
 - **Windows Installation**:
 
+    Install last version of windows releases.
   ```bash
    python3 install.py
     ```
