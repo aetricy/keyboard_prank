@@ -28,7 +28,9 @@ Follow these instructions to set up the Keyboard Prank on the target computer:
     
 - **Windows Installation**:
    
-   *Do not support windows yet.*
+   ```bash
+     python3 install.py  
+   ```
 
    
 #### This will install and configure the prank to start on every reboot.
