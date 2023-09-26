@@ -7,6 +7,7 @@ file_path=os.getcwd()
 
 def save_path(file_path):
     with open(file_path+"\\"+"config.py","w+") as config_file:
+        file_path=(str(file_path).replace('\\','\\\\'))
         config_file.write('PATH = "%s"' % file_path)
 
 def add_to_startup(file_path):
