@@ -60,7 +60,9 @@ If you decide to remove the prank from the target computer:
 
 ### Windows
 
-   *Do not support windows yet.*
+   ```bash
+   .\delete.bat
+   ```
 
 
 #### This will remove the prank from the system.
